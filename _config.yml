@@ -17,6 +17,12 @@ sass:
   sass_dir:     _sass
   style:        compressed
 
+# Collections
+collections:
+  designs: 
+    output: true 
+    permalink: /my-designs/:name
+
 # Gems
 plugins:
   - jekyll-feed

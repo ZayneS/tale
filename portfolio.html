@@ -1,0 +1,16 @@
+---
+layout: default
+title: Jekyll designs
+permalink: /portfolio/
+---
+
+
+{% for design in site.designs %}
+
+
+<a href="{{ design.url | prepend: site.baseurl }}"><div>{{ design.title }}</div></a>
+
+
+<p class="post-excerpt">{{ design.description | truncate: 160 }}</p>
+
+{% endfor %}  

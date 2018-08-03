@@ -2,7 +2,7 @@
 layout: post
 title:  "Introducing Tale"
 author: "Chester"
-category: "blog"
+category: "momo"
 
 ---
 
