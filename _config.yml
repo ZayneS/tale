@@ -9,8 +9,8 @@ author:
   url:          https://chester.how
   email:        chesterhow@gmail.com
 
-# Build settings
-markdown:       kramdown
+# Build settings markdown engine
+markdown:       redcarpet
 
 # Assets
 sass:
