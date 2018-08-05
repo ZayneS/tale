@@ -9,7 +9,7 @@ permalink: /about/
 ## Professional Experience
 
 
-**Co-founder | Nakko**, Beijing, China</br> 
+**Co-founder | Nakko**, Beijing, China  
 _2015.3 - 2018.6_
 
 <a href="http://www.nakko.me/", target="blank">Nakko</a>, is an online retailer providing decent home decor and houseware at affordable price for China's young generation. It is the in-house brand of the succesful online community <a href="http://www.myhaowu.com/", target="blank">have</a>, and it has provided goods for over millions of home decor lovers.
@@ -20,7 +20,7 @@ _2015.3 - 2018.6_
 * Led the product planning for home decor, established the data analysis process for product planning and built in-house data mining tools. 
 <br><br>
 
-**Consultant | Advance.ai**, Beijing, China</br> 
+**Consultant | Advance.ai**, Beijing, China  
 _2016.5 - 2017.3_
 
 <a href="http://www.advance.ai/en-us", target="blank">Advance.ai</a>, was founded by an early investor of cruise.ai, backed by GSR Ventures, to provide practical autonomous driving technology.
@@ -29,7 +29,7 @@ _2016.5 - 2017.3_
 * Maintaining the partnership network with automobile OEMs.
 <br><br>
 
-**Associate Product Designer | Yahoo**, Sunnyvale, CA</br>
+**Associate Product Designer | Yahoo**, Sunnyvale, CA  
 _2014.7 - 2015.2_
 
 * Worked on the user flow redesign for account management for all yahoo products;
