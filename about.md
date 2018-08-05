@@ -12,7 +12,7 @@ permalink: /about/
 **Co-founder | Nakko**, Beijing, China</br> 
 _2015.3 - 2018.6_
 
-[Nakko](http://www.nakko.me/) is an online retailer providing decent home decor and houseware at affordable price for China's young generation. It is the in-house brand of the succesful online community [have](http://www.myhaowu.com/), and it has provided goods for over millions of home decor lovers.
+<a href="http://www.nakko.me/", target="blank">Nakko</a>, is an online retailer providing decent home decor and houseware at affordable price for China's young generation. It is the in-house brand of the succesful online community <a href="http://www.myhaowu.com/", target="blank">have</a>, and it has provided goods for over millions of home decor lovers.
 
 * Launched iOS and android apps for the online community and acquired over 1M users;
 * Built the e‐commerce platform in apps, supported over 10K monthly buying customers;
@@ -23,7 +23,7 @@ _2015.3 - 2018.6_
 **Consultant | Advance.ai**, Beijing, China</br> 
 _2016.5 - 2017.3_
 
-[Advance.ai](https://advance.ai/en-us/) was founded by an early investor of cruise.ai, backed by GSR Ventures, to provide practical autonomous driving technology.
+<a href="http://www.advance.ai/en-us", target="blank">Advance.ai</a>, was founded by an early investor of cruise.ai, backed by GSR Ventures, to provide practical autonomous driving technology.
 
 * Assisted founder upon investigation of business opportunity in autonomous driving;
 * Maintaining the partnership network with automobile OEMs.
