@@ -4,14 +4,14 @@ title: Jekyll designs
 permalink: /portfolio/
 ---
 
-<div>
+<div class="portfolio">
     {% assign sorted = (site.designs | sort: 'date') | reverse %}
     {% for item in sorted %}
-    	<a href="{{ item.url | prepend: site.baseurl }}">
+    	<a class="portfolio-item" href="{{ item.url | prepend: site.baseurl }}">
+    		<div class="thumbnail"><img src="", alt=""></img></div>
 			<h2>{{ item.title }}</h2>
+			<p class="post-excerpt">{{ item.description | truncate: 160 }}</p>
 		</a>
-		<p class="post-excerpt">{{ item.date }}</p>
-		<p class="post-excerpt">{{ item.description | truncate: 160 }}</p>
     {% endfor %}
 </div>
 

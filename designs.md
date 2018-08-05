@@ -8,9 +8,11 @@ permalink: /my-designs/
 
 
 <a href="{{ design.url | prepend: site.baseurl }}">
+		<div class="thumbnail"><img src="pic_trulli.jpg" alt="Italian Trulli"></div>
         <h2>{{ design.title }}</h2>
+        <p class="post-excerpt">{{ design.description | truncate: 160 }}</p>
 </a>
 
-<p class="post-excerpt">{{ design.description | truncate: 160 }}</p>
+
 
 {% endfor %}  
