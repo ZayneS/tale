@@ -1,9 +1,9 @@
 ---
-title: "Yogurt, a barcode data viz for your browsing behavior"
-layout: post
+title: "Yogurt, to visualize for your browsing behavior"
+layout: project
 img: webjeda-purple-jekyll-theme.jpg
-description: Webjeda Purple is a minimal theme built on default jekyll theme. It is very light highly customizable. Suitable for minimal blogs.
-date: "2017-3-10"
+description: Inspired by the concept of encrypted self-portrait in DNA art, it is a Google Chrome Extension we built to help people be aware of their browsing behavior
+date: "2012-12-10"
 ---
 
 ## Lightweight
