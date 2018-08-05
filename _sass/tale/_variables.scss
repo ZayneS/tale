@@ -1,5 +1,5 @@
 // Colors
-$default-color: #555;
+$default-color: #111;
 $default-shade: #353535;
 $default-tint: #aaa;
 $grey-1: #979797;
@@ -10,11 +10,14 @@ $blue: #4a9ae1;
 $shadow-color: rgba(0, 0, 0, .2);
 $code-color: #bf616a;
 
+
 // Fonts
-$serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif;
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Mono|Roboto+Slab');
+
+$serif-primary: 'Roboto Slab', 'Times New Roman', Times, serif;
 $serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif;
-$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
-$monospaced: Menlo, Monaco, monospace;
+$sans-serif: 'Roboto', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+$monospaced: 'Roboto Mono', Menlo, Monaco, monospace;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
@@ -27,3 +30,5 @@ $monospaced: Menlo, Monaco, monospace;
      -moz-transition: $args;
           transition: $args;
 }
+
+
