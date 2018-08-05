@@ -36,7 +36,7 @@ _2014.7 - 2015.2_
 * Initialized and led the development of a new css framework and prototyping kit for user account models.
 <br><br>
 
-**Research Assistant | Algorithmic Synthesis Lab**, University of Michigan, Ann Arbor, MI</br>
+**Research Assistant | Algorithmic Synthesis Lab**, University of Michigan, Ann Arbor, MI  
 _2011.8 - 2012.5_
 
 ASL investigates algorithmic and computational design methods of for mechanical, industrial and biomedical systems.
