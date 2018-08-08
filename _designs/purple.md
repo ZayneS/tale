@@ -6,7 +6,7 @@ description: Inspired by the concept of encrypted self-portrait in DNA art, it i
 date: "2012-12-10"
 ---
 
-## Lightweight
+### Online distraction
 
 Nowadays, Internet is the new habitat for human, and our life pattern has been dramatically changed when emerge ourselves in it. 
 
