@@ -37,30 +37,34 @@ What about If have something less brutal yet engaging enough as a reminder? A id
 <br>
 ## A DataViz browser extension to remind you of better time management
 
-Yogurt is a browser extension (available for Chrome and Firefox) implementing barcode chart to visualize browsing history of selected websites with the associated level of interest configured by the user.
 
- {% youtube "https://www.youtube.com/embed/x92nYIW9354" %}
+![Yogurt screenshot]({{ "/assets/project_img/yogurt_draft.jpg" | absolute_url }})_Preliminary Concept Sketch_
 
- {% youtube "https://www.youtube.com/embed/35H1t3_qbSg" %}
 
+Yogurt is a browser extension (available for [Chrome](https://chrome.google.com/webstore/detail/yogurt/bkcllpfdmadccnllfpkeipobfhclbjnf) and Firefox) implementing barcode chart to visualize browsing history of selected websites with the associated level of interest configured by the user.
+
+ <p><style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>    <iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/x92nYIW9354" frameborder="0" allowfullscreen></iframe></div></p>
 
 
 The barcode chart, inspired by the concept of encrypted self-portrait in DNA art, is rendered using SVG element + WebSQL storage, Smooth interactions are appended for user to reveal detailed information.
 
-![Yogurt screenshot]({{ "/assets/project_img/yogurt_1.jpg" | absolute_url }})
+![Yogurt screenshot]({{ "/assets/project_img/yogurt_1.jpg" | absolute_url }})_Visualization Panel_
 
 
 A configuration panel helps user to input personalized level of distraction to different domains, and to define the time length 
 
 ![Yogurt config panel screenshot]({{ "/assets/project_img/yogurt_config_1.jpg" | absolute_url }})
-![Yogurt config panel screenshot]({{ "/assets/project_img/yogurt_config_2.jpg" | absolute_url }})
+![Yogurt config panel screenshot]({{ "/assets/project_img/yogurt_config_2.jpg" | absolute_url }})_The Configuration Panel_
 
 A widget hovers over at the corner of the webpage user is focusing on, with color coded indicator to tell 
 
+![Yogurt config panel screenshot]({{ "/assets/project_img/yogurt_popup.jpg" | absolute_url }})_The Widght You Can Always See_
+
+
 This project was accepted to 2013 UIST Post Track, [Visualizing Web Browsing History with Barcode Chart](http://bwang29.github.io/files/yogurt_submit_final.pdf)
 
-![Yogurt config panel screenshot]({{ "/assets/project_img/yogurt_UIST_poster.jpg" | absolute_url }})
+![Yogurt config panel screenshot]({{ "/assets/project_img/yogurt_UIST_poster.jpg" | absolute_url }})_UIST Poster_
 
-It was the final project developed in CS448B Data Viz. It was done with Borui Wang, Jianfeng Hu, and Ningxia Zhang.
+It was the final project developed in CS448B Data Viz. It was done with [Borui Wang](http://bwang29.github.io/), [Jianfeng Hu](https://www.linkedin.com/in/jianfenghu/), and [Ningxia Zhang](http://ningxiazhang.com/).
 
 

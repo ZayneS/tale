@@ -8,7 +8,6 @@ date: "2014-5-10"
 
 ![Yogurt screenshot]({{ "/assets/project_img/happylabel_thumb.jpg" | absolute_url }})
 
-<br>
 
 ## A preparatory work for design feature training.
 Happy label was a crowdsourcing image labeling game inspired by the Game with a Purpose (GWAP) , It was the final project of <a href="https://hcicourses.stanford.edu/cs376/2017/" target="blank">CS376 Human Computer Interaction Research</a>. [Yinan Na](https://www.linkedin.com/in/nayinan/) and I spent amazing four weeks together to build the game and test among students.
@@ -42,7 +41,8 @@ The web client was built with Html/Css & jQuery, the server was written with nod
 
 Take a look at our live demo videos at Youtube:
 
- {% youtube "https://www.youtube.com/embed/35H1t3_qbSg" %}
+<p><style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'>    <iframe title="YouTube video player" width="640" height="390" src="http://www.youtube.com/embed/35H1t3_qbSg" frameborder="0" allowfullscreen></iframe></div>
+ <p><img></img><em>Watch How it Plays in Video</em></p>
 
 <br>
 To evaluate the efficiency and accuracy of the image labeling with our design, we published HappyLabel online to collect data. And in addition, we conducted a user interview involving 5 players to evaluate the gameplay of HappyLabel. You can find the result in attached image.
