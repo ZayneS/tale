@@ -4,6 +4,7 @@
     color: $default-color;
     display: inline-block;
     padding: 2rem 0;
+    width: 100%;
 
     &:hover .catalogue-line,
     &:focus .catalogue-line {
@@ -37,12 +38,7 @@
     width: 2rem;
   }
 
-  .thumbnail {
-  	min-height:200px;
-    max-height:200px;
-  	background-color:#eee;
-    overflow:hidden;
-  }
+
 
   p {
   	font-family:$sans-serif;
