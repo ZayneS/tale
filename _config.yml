@@ -28,6 +28,7 @@ collections:
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-youtube
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
