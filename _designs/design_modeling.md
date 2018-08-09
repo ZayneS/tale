@@ -9,6 +9,7 @@ date: "2012-4-13"
 
 > _It was the final project for EECS 545 Machine Learning at U of Michigan_
 
+
 <br>
 ##Can we facilitate faster design process with A.I.?
 
@@ -40,7 +41,7 @@ We limited the problem space to car frontal face design. and studied the relatio
 
 * Demographic & Preference record classification: Bilinear ranking SVM methods for preference classification.
 
-<img class="math-expression", src="/assets/project_img/CarPrefer_7.png", alt=""></img>
+<img class="math-expression" src="/assets/project_img/CarPrefer_7.png" alt=""></img>
 
 * Feature extraction: Edge detection methods.
 
