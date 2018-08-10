@@ -1,0 +1,86 @@
+
+
+.about{
+
+  .author-cover{
+      height: 28rem;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+    
+
+  .author-image {
+    margin-top: -52px;
+
+    .img{
+      border: 4px solid white;
+      width: 100px;
+      height: 100px;
+      display: block;
+      border-radius: 50%;
+      margin: auto;
+      background-size: cover;
+      background-position: center;
+      background-color:$default-shade;
+
+    }
+
+  }
+
+  .author-info {
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    margin: 20px auto 40px;
+
+
+    .author-title {
+      font-size: 2.4rem;
+    }
+
+    .author-bio {
+      font-size: 1.0rem;
+      font-weight: normal;
+      color: #666666;
+    }
+
+    .author-meta {
+      color: #9EABB3;
+      font-size: 1.0rem;
+
+      a {
+        margin-top: 10px;
+        color: #9EABB3;
+        margin-left:10px;
+        margin-right:10px;
+      }
+    }
+
+
+  }  
+
+
+}
+
+
+
+.resume{
+	
+	  p {
+    margin: 0 0 1rem;
+    text-align: left;
+    font-family: $sans-serif;
+  }
+
+  li{
+  	text-align: left;
+    font-family: $sans-serif;
+  }
+
+  h2 {
+  	line-height: normal;
+  }
+
+
+}

@@ -1,8 +1,10 @@
 ---
-layout: resume
+layout: about
 title: "About"
 permalink: /about/
 ---
+
+
 
 
 <br><br>

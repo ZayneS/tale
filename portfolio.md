@@ -4,7 +4,7 @@ title: Jekyll designs
 permalink: /portfolio/
 ---
 
-<div class="portfolio">
+<div class="portfolio main-container">
     {% assign sorted = (site.designs | sort: 'date') | reverse %}
     {% for item in sorted %}
     	<a class="portfolio-item" href="{{ item.url | prepend: site.baseurl }}">
