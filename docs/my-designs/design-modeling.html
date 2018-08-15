@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <title>
+    
+      Car Styling Design Preference Prediction with Machine Learning &middot; Zheng Shen
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+
+  <!-- RSS -->
+  <link type="application/atom+xml" rel="alternate" href="https://zaynes.github.io/feed.xml" title="Zheng Shen" />
+</head>
+
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="/">
+          <h2 class="nav-title">Zheng Shen</h2>
+        </a>
+        <ul>
+          <li><a href="/">Posts</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="post main-container">
+
+  <h1 class="post-title">Car Styling Design Preference Prediction with Machine Learning</h1>
+  <a href="/category/"></a>
+  <div class="post-date">April 13, 2012</div>
+  <br></br>
+
+  <blockquote>
+<p><em>It was the final project for EECS 545 Machine Learning at U of Michigan</em></p>
+</blockquote>
+
+<p><br></p>
+
+<h2>Can we facilitate faster design process with A.I.?</h2>
+
+<p>Due to increased competitions in automotive industry, car designers &amp; engineers are facing challenges of compressed lead time for development and costly risks in design innovations. </p>
+
+<p>Can we bit the challenge with more efficient design process with faster product-market-fit decisions? We intended to find the possibility with data of previous customer purchasing behaviors, and the assistance of machine learning.</p>
+
+<p><br></p>
+
+<h2>Ranking Support Matrix Machine for Vehicle Face Prediction</h2>
+
+<h3>Problem Definition</h3>
+
+<ol>
+<li>To enable more efficient and effective design decisions</li>
+<li>We intended to realize automated design inspiration based on user preference modeling.</li>
+</ol>
+
+<p>We limited the problem space to car frontal face design. and studied the relationship between the demographics of an individual, and the geo-metric shape of the vehicle face.</p>
+
+<p><img src="https://zaynes.github.io/assets/project_img/CarPrefer_1.jpg" alt="Placeholder image"></p>
+
+<h3>Strategies</h3>
+
+<p><img src="https://zaynes.github.io/assets/project_img/CarPrefer_2.jpg" alt="Placeholder image"></p>
+
+<h3>Methods &amp; Algorithms</h3>
+
+<ul>
+<li>Demographic &amp; Preference record classification: Bilinear ranking SVM methods for preference classification.</li>
+</ul>
+
+<p><img class="math-expression" src="/assets/project_img/CarPrefer_7.png" alt=""></img></p>
+
+<ul>
+<li>Feature extraction: Edge detection methods.</li>
+</ul>
+
+<p><img src="https://zaynes.github.io/assets/project_img/CarPrefer_6.jpg" alt="Placeholder image"></p>
+
+<ul>
+<li>New buyer’s design preference prediction: Linear regression.</li>
+</ul>
+
+<p><img src="https://zaynes.github.io/assets/project_img/CarPrefer_4.jpg" alt="Placeholder image"></p>
+
+<h3>Test results</h3>
+
+<ol>
+<li>Bilinear ranking SVM is a good tool for preference prediction;</li>
+<li>Edge detection methods was not powerful enough to extract models that can represent car’s aesthetic features for this study.</li>
+<li>Preference prediction result lacks fidelity for design prediction.</li>
+</ol>
+
+<p>It was the final project for EECS545 Machine Learning. It was done with Alex, Hareen and Yiying. you can find the final report here.
+<a href="https://www.dropbox.com/s/ci3gtvnqnju323t/EECS545_Burnap_Kancharla_Shen_Zhu_Final_Report.pdf?dl=0">Ranking Support Matrix Machine for Vehicle Face Prediction</a></p>
+
+<p><br></p>
+
+<h2>Challenges, learnings and unsolved problems</h2>
+
+<h3>a. A decision space is not a design space</h3>
+
+<p>Ranking decisions can be linear and discrete when we assign sequential numbers to choices. however, different designs for these choices are, in most cases, not. </p>
+
+<p>When using RVMM, the model was trained to represent the mapping from demographic space to a linear ranking decision space. The prediction was also a linear combination of existing choices. The problem was that a (3.5 SUV<em>01 + 0.5 Sedan</em>03) did not always make sense for actual design prediction since designers cannot interpret this choice in actual design parameters. It was impossible for us to map such combination back to the original design spaces.</p>
+
+<p>In the end, we found RVMM was a good algorithm to recommend choices that were already existed. We got very good result when running it in movie recommendation tests. But it failed to predict things that were not exist, and thus failed for design recommendations.</p>
+
+<p><br></p>
+
+<h3>b. Finding the valuable features</h3>
+
+<p>Another major challenge in this research was to find the useful features regarding car designs and that are actually affect customers&#39; decisions. </p>
+
+<p>we focus on discovering features that deliver the greatest predictive power with the lowest computational overhead.</p>
+
+<p>During the project, choosing the subset of headlight was the wrong direction after we found features of the entire front face of the car was too difficult to extract. In fact, styling is just one aspect for people’s purchasing considerations, more are about performances, fuel-efficiency , spaces, and of course prices.</p>
+
+<p><br></p>
+
+<h2>Future directions and related works</h2>
+
+<p>Future studies to address challenges in two directions we just discussed about have been conducted by Alex Burnap in his Ph.D. researches. You can find related reports and publications at 
+<a href="http://www.aburnap.com/" target="blank">www.aburnap.com</a></p>
+
+
+</div>
+
+<div class="pagination">
+  
+    <a href="/my-designs/yogurt" class="left arrow">&#8592;</a>
+  
+  
+
+  <a href="#" class="top">Top</a>
+</div>
+
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="2018-08-15 12:24:10 -0700">2018</time> Zheng Shen. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme, some customizations were applied.
+      </span>
+    </footer>
+  </body>
+</html>
