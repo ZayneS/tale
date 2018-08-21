@@ -3,3 +3,8 @@
 .sass-cache
 _site
 Gemfile.lock
+assets/.DS_Store
+assets/project_img/.DS_Store
+_cookies/.DS_Store
+.DS_Store
+category/momo.html
