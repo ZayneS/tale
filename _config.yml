@@ -2,13 +2,13 @@
 title:          Zheng Shen
 water:			Water
 description:    "Minimal Jekyll theme for storytellers"
-url:            "https://ZayneS.github.io"
+url:            "https://zshen777.github.io"
 
 # Author
 author:
   name:         Zheng Shen
-  url:          https://ZayneS.github.io
-  email:        chesterhow@gmail.com
+  url:          https://zshen777.github.io
+  email:        zheng.shen05@gmail.com
 
 # Build settings markdown engine
 markdown:       redcarpet
